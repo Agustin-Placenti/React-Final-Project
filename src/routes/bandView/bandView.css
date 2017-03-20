@@ -1,0 +1,21 @@
+article.home-view{
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+.band-image{
+	display:inline;
+	margin-right:50px;
+	margin-bottom:30px;
+	max-width:20%;
+}
+
+.band-info{
+	display:inline-block;
+	vertical-align:top;
+	max-width:60%;
+}
+
+.band-info p{
+	font-size:18px;
+}
