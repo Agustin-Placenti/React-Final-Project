@@ -1,0 +1,34 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "name": "neo pistea",
+            "album": "reencarnacion",
+            "img": "https://www.cmtv.com.ar/imagenes_artistas/2540.jpg"
+        },
+        {
+            "id": 2,
+            "name": "duki",
+            "album": "men in black",
+            "img": "https://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2020/02/17/befunky_collage.jpg"
+        },
+        {
+            "id": 3,
+            "name": "neo pistea",
+            "album": "use your illusions 2",
+            "img": "https://www.cmtv.com.ar/imagenes_artistas/2540.jpg"
+        },
+        {
+            "id": 4,
+            "name": "neo pistea",
+            "album": "black mirror",
+            "img": "https://www.cmtv.com.ar/imagenes_artistas/2540.jpg"
+        },
+        {
+            "id": 5,
+            "name": "duki",
+            "album": "vicios",
+            "img": "https://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2020/02/17/befunky_collage.jpg"
+        }
+    ]
+}

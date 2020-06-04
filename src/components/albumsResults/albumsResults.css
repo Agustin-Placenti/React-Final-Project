@@ -1,0 +1,33 @@
+.albums-results {
+    padding: 0 200px;
+}
+
+.albums-results__title {
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  
+.albums-results__clear-button {
+    font-size: 25px;
+    color: red;
+    background-color: darkslategray;
+    float: right;
+    border: none;
+}
+
+.albums-results__next-arrow {
+    float: right;
+}
+
+.albums-results__back-arrow {
+    float: left;
+}
+
+.albums-results__body {
+    height: 540px;
+}
+
+.albums-results__footer {
+    clear: both;
+}

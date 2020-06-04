@@ -1,0 +1,17 @@
+.searcher {
+    width: 93%;
+}
+
+.searcher__search-img {
+    width: 25px;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 12px;
+}
+
+.searcher__clear-img {
+    width: 25px;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 12px;
+}

@@ -1,0 +1,27 @@
+.album-view {
+    text-align: center;
+    background-color: darkslategray;
+    height: 1150px;
+  }
+  
+  .album-view__logo {
+    height: 100%;
+  }
+  
+  .album-view__body {
+    padding: 70px 200px 20px;
+  }
+  
+  .album-view__title {
+    float: left;
+    font-size: 25px;
+  }
+
+  .album-view__description {
+    float: left;
+    font-size: 50px;
+    clear: both;
+    margin-top: 50px;
+  }
+
+  

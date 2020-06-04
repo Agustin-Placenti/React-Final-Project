@@ -6,10 +6,16 @@
     "react-scripts": "0.9.5"
   },
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-localstorage": "^0.3.1",
-    "react-router-dom": "^4.0.0"
+    "react-redux": "^5.1.2",
+    "react-redux-form": "^1.16.14",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.5",
+    "sass": "^1.26.3",
+    "superagent": "^5.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,27 @@
+.album {
+    font-size: 20px;
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+    background: linear-gradient(45deg, black, transparent);
+}
+
+.album__img {
+    float: left;
+    height: 180px;
+}
+
+.album__content {
+    text-align: left;
+    margin-left: 220px;
+    color: darkgray;
+}
+
+.album__name-artist {
+    font-size: 30px;
+    margin: 20px 60px;
+}
+
+.album__name {
+    margin-left: 60px;
+}
