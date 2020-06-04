@@ -19,4 +19,4 @@ const getRoutes = function() {
     )
 };
 
-export default getRoutes;
+	export default getRoutes;

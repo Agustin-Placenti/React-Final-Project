@@ -1,4 +1,5 @@
 .main-view {
+<<<<<<< HEAD
   text-align: center;
   background-color: darkslategray;
   height: 1150px;
@@ -48,4 +49,17 @@
   height: 150px;
   padding: 20px;
   color: white;
+=======
+	text-align: center;
+}
+
+.main-view__logo {
+	height: 50px;
+}
+
+.main-view__header {
+	background-color: #111;
+	padding: 20px;
+	color: white;
+>>>>>>> fee72da1ff523de01ff0c63cd8f5c8f13f45df58
 }

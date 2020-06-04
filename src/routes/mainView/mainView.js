@@ -1,5 +1,6 @@
 import './mainView.css';
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import logo from '../../assets/spoty.png';
 import constants from '../../constants/constants.js';
 import Searcher from '../../components/searcher/searcher.js';
@@ -49,6 +50,27 @@ class MainView extends Component {
             </article>
         );
     }
+=======
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
+
+class MainView extends Component {
+render() {
+return (
+<article className="main-view">
+    <header className="main-view__header">
+        <img src={logo} className="main-view__logo" alt="logo" />
+    </header>
+    <nav className="main-view__nav">
+        <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+        </ul>
+    </nav>
+</article>
+);
+}
+>>>>>>> fee72da1ff523de01ff0c63cd8f5c8f13f45df58
 }
 
 export default connect(
