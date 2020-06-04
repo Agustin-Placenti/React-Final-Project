@@ -1,18 +1,21 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import {BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import MainView from './mainView/mainView';
-import HomeView from './homeView/homeView';
-import AboutView from './aboutView/aboutView';
+import AlbumView from './albumView/albumView';
 
 const getRoutes = function() {
     return (
-        <div>
-            <Route name="Main" component={MainView} />
-            <Switch>
-                <Route exact path="/" component={HomeView} />
-                <Route path="/about" component={AboutView} />
-            </Switch>
-        </div>
+        <BrowserRouter>
+            <div>
+                <Route exact path="/" render={() => (
+                    <Redirect to="/main"/>
+                )}/>
+                <Route path='/main' component={MainView} />
+                <Switch>
+                    <Route path="/album/:id" component={AlbumView} />
+                </Switch>
+            </div>
+        </BrowserRouter>
     )
 };
 

@@ -1,20 +1,51 @@
 .main-view {
   text-align: center;
+  background-color: darkslategray;
+  height: 1150px;
 }
 
 .main-view__logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 100%;
+}
+
+.main-view__body {
+  padding: 70px 200px 20px;
+}
+
+.main-view__title {
+  float: left;
+  font-size: 25px;
+}
+
+.main-view__buscador {
+  width: 93%;
+}
+
+.main-view__input {
+  width: 100%;
+  background: transparent;
+	outline: none;
+  padding: 12px 45px;
+  margin: 30px 0;
+  border-radius: 25px;
+  background-image: url("../../assets/lupa.jpg");
+}
+
+.main-view__input-img {
+  position: relative;
+	top:1px;
+}
+
+.main-view__subtitle {
+  float: left;
+  font-size: 50px;
+  clear: both;
+  margin-top: 50px;
 }
 
 .main-view__header {
-  background-color: #222;
+  background-color: black;
   height: 150px;
   padding: 20px;
   color: white;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
